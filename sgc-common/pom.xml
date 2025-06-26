@@ -13,7 +13,7 @@
     <artifactId>sgc-common</artifactId>
     <name>smart-goofish-crawler-common</name>
 
-<!--    <packaging>jar</packaging>-->
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
