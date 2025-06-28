@@ -20,6 +20,7 @@
     <modules>
         <module>sgc-common</module>
         <module>sgc-core</module>
+        <module>sgc-agent</module>
     </modules>
 
     <properties>
@@ -29,6 +30,22 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>io.github.su322</groupId>
+                <artifactId>sgc-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.su322</groupId>
+                <artifactId>sgc-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.su322</groupId>
+                <artifactId>sgc-agent</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
