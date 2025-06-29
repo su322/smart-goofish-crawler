@@ -1,3 +1,9 @@
 package io.github.su322.sgc.common;
 
-c
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+public class SgcCommonApplicationTests {
+
+
+}

@@ -1,5 +1,5 @@
 spring:
   application:
-    name: sgc-agent
+    name: sgc-user
   profiles:
     include: common

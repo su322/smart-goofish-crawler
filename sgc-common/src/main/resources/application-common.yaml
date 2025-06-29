@@ -1,0 +1,4 @@
+# Spring Boot 会自动查找名为 application-{profile}.yaml 的文件，其中 {profile} 就是在 include 中指定的值。
+spring:
+    application:
+      name: sgc-common

@@ -18,8 +18,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>sgc-common</module>
         <module>sgc-core</module>
+        <module>sgc-common</module>
+        <module>sgc-user</module>
         <module>sgc-agent</module>
     </modules>
 
