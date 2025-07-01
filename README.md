@@ -4,7 +4,9 @@
 
 ## 项目简介
 
-Smart Goofish Crawler。
+Smart Goofish Crawler (SGC) 设计中是一个智能化的闲鱼商品信息爬取、分析与决策执行一体化系统。该项目旨在通过自动化爬虫技术结合人工智能分析能力，帮助用户高效地发现、筛选和追踪闲置二手商品信息，实现智能化的商品监控和决策支持。
+
+本项目基于 [cdutyb/pypy_goofish](https://github.com/cdutyb/pypy_goofish) 的设计进行重构和扩展，在原始Python爬虫基础上构建了更加强大的Java生态系统解决方案，增加了智能分析、用户系统和自动化交易等功能。
 
 ## 项目架构
 
@@ -13,7 +15,7 @@ Smart Goofish Crawler。
 ### 技术栈（规划中）
 
 - **后端**：Spring Boot
-- **爬虫**：WebMagic
+- **爬虫**：WebMagic/Selenium
 - **AI**：langchain4j
 - **数据存储**：MySQL, Redis, MongoDB
 - **构建工具**：Maven
